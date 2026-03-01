@@ -22,8 +22,8 @@ global.pairing_code = true
 global.number_bot = '6283165995953' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
-	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
-	thumbnailUrl: 'https://telegra.ph/file/fe4843a1261fc414542c4.jpg',
+	anonim: 'https://files.catbox.moe/pph8ww.jpg',
+	thumbnailUrl: 'https://files.catbox.moe/epy0od.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
@@ -82,4 +82,5 @@ fs.watchFile(file, () => {
 	require(file)
 
 });
+
 
