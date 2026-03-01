@@ -112,7 +112,7 @@ async function GroupParticipantsUpdate(naze, { id, participants, author, action 
 				try {
 					profile = await naze.profilePictureUrl(jid, 'image');
 				} catch {
-					profile = 'https://telegra.ph/file/95670d63378f7f4210f03.png';
+					profile = 'https://files.catbox.moe/pph8ww.jpg';
 				}
 				let messageText;
 				if (action === 'add') {
@@ -1089,4 +1089,5 @@ fs.watchFile(file, () => {
 	console.log(chalk.redBright(`Update ${__filename}`))
 	delete require.cache[file]
 	require(file)
+
 });
