@@ -107,9 +107,9 @@ module.exports = naze = async (naze, m, msg, store) => {
 		const text = q = args.join(' ')
 		const mime = (quoted.msg || quoted).mimetype || ''
 		const qmsg = (quoted.msg || quoted)
-		const author = set.author = global.author || 'Nazedev';
-		const packname = set.packname = global.packname || 'Bot WhatsApp';
-		const botname = set.botname = global.botname || 'Hitori Bot';
+		const author = set.author = global.author || 'reyy';
+		const packname = set.packname = global.packname || 'jennierubyjane';
+		const botname = set.botname = global.botname || 'JENN 82+';
 		const hari = moment.tz('Asia/Jakarta').locale('id').format('dddd');
 		const tanggal = moment.tz('Asia/Jakarta').locale('id').format('DD/MM/YYYY');
 		const jam = moment.tz('Asia/Jakarta').locale('id').format('HH:mm:ss');
@@ -133,7 +133,7 @@ module.exports = naze = async (naze, m, msg, store) => {
 				remoteJid: '0@s.whatsapp.net',
 				participant: '0@s.whatsapp.net',
 				fromMe: false,
-				id: 'Naze'
+				id: 'reyy'
 			},
 			message: {
 				contactMessage: {
@@ -4460,3 +4460,4 @@ fs.watchFile(file, () => {
 	require(file)
 
 });
+
