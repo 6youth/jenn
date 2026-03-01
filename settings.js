@@ -9,17 +9,17 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
-global.botname = 'Hitori Bot'
-global.packname = 'Bot WhatsApp'
-global.listprefix = ['+','!','.']
+global.owner = ['628138176829'] //['628','628'] 2 owner atau lebih
+global.author = 'reyy'
+global.botname = 'JENN 82+'
+global.packname = 'jennierubyjane'
+global.listprefix = ['j','!','.']
 
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
-global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
+global.number_bot = '6283165995953' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
 	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
@@ -30,10 +30,10 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/DPUC3uuqYZI9FNLdgtMp4n?mode=gi_t',
-	ch: '120363250409960161@newsletter',
+	yt: 'https://youtube.com/c/jennierubyjane',
+	gh: 'https://github.com/6youth',
+	gc: '',
+	ch: '',
 }
 
 global.limit = {
@@ -49,17 +49,17 @@ global.money = {
 }
 
 global.mess = {
-	key: 'Apikey mu telah habis silahkan kunjungi\nhttps://naze.biz.id',
-	owner: 'Fitur Khusus Owner!',
-	admin: 'Fitur Khusus Admin!',
-	botAdmin: 'Bot Bukan Admin!',
-	group: 'Gunakan Di Group!',
-	private: 'Gunakan Di Privat Chat!',
-	limit: 'Limit Anda Telah Habis!',
-	prem: 'Khusus User Premium!',
-	wait: 'Loading...',
-	error: 'Error!',
-	done: 'Done'
+	key: 'ummm anuu',
+	owner: 'fitur khusus owner!',
+	admin: 'fitur khusus admin!',
+	botAdmin: 'bot bukan admin!',
+	group: 'gunakan di group!',
+	private: 'gunakan di privat chat!',
+	limit: 'limit anda telah habis!',
+	prem: 'khusus user premium!',
+	wait: 'loading...',
+	error: 'error!',
+	done: 'done ngab :v'
 }
 
 global.APIs = {
@@ -71,7 +71,7 @@ global.APIKeys = {
 
 // Lainnya
 
-global.badWords = ['dongo'] // input kata-kata toxic yg lain. ex: ['dongo','dongonya']
+global.badWords = ['dongo','kontol','memek','yatim'] // input kata-kata toxic yg lain. ex: ['dongo','dongonya']
 global.chatLength = 500
 
 let file = require.resolve(__filename)
@@ -82,3 +82,4 @@ fs.watchFile(file, () => {
 	require(file)
 
 });
+
